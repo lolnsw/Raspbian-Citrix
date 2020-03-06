@@ -1,14 +1,14 @@
 # Raspbian-Citrix
 
-# Install Citrix debian package:
+Install Citrix debian package:
 ==================================
 sudo dpkg -i /path/to/deb/file.deb
 
-# Citrix certificates error fix:
+Citrix certificates error fix:
 ======================
 sudo ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts
 
-# Citrix full screen
+Citrix full screen
 =====================
 sudo apt-get install icewm
 Edit "/etc/xdg/lxsession/LXDE/desktop.conf" and "/etc/xdg/lxsession/LXDE-pi/desktop.conf":
@@ -23,7 +23,7 @@ remove icewm bar:
 vi /usr/share/icewm/preferences
 ShowTaskBar=0
 
-# Numlock on boot
+Numlock on boot
 =================
 sudo apt-get install numlockx
 sudo vi /etc/X11/xinit/xinitrc 
