@@ -11,8 +11,8 @@ sudo ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/c
 Citrix full screen
 =====================
 sudo apt-get install icewm
-Edit "/etc/xdg/lxsession/LXDE/desktop.conf" and "/etc/xdg/lxsession/LXDE-pi/desktop.conf":
-In both files earch for:
+Edit "/etc/xdg/lxsession/LXDE/desktop.conf" and "/etc/xdg/lxsession/LXDE-pi/desktop.conf":<br>
+In both files earch for:<br>
 [Session]
 window_manager=openbox-lxde-pi
 and in both files change it to:
